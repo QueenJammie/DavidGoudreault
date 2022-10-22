@@ -1,10 +1,72 @@
-h1 {
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-size: 96px;
-    line-height: 144px;
+.container {
+    max-width: 1060px;
+    background-color: rgba(194, 170, 170, 0.552);
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 a {
     text-decoration: none;
+}
+
+header {
+    background-image:
+        /*linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), */
+        url("../images/DavidGoudreaultHeaderBackground.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 10%;
+    padding-top: 2em;
+}
+
+
+header h1 {
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 2px;
+}
+
+header h2 {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+header .title {
+    display: inline-block;
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px;
+}
+
+header .learn-more {
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+@media (max-width: 600px) {
+    header {
+        padding-bottom: 0;
+    }
+
+    header h1 {
+        background-color: rgba(192, 192, 192, 0.46);
+        border-radius: 15px;
+    }
+
+    header .learn-more {
+        background-color: rgba(240, 234, 234, 0.582);
+        padding: 8px;
+        padding-top: 0;
+        padding-bottom: 0;
+        border-radius: 30px;
+    }
+}
+
+@media (min-width: 600px) {
+    .title {
+        background-color: rgba(192, 192, 192, 0.46);
+    }
 }
