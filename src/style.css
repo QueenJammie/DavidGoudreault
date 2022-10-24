@@ -176,6 +176,15 @@ main button.button {
     border: none;
 }
 
+main section.videos {
+    text-align: center;
+    padding-bottom: 0;
+}
+
+main section.videos:last-child {
+    padding-bottom: 80px;
+}
+
 @media (max-width: 960px) {
     main .firstRow {
         grid-template-columns: 1fr;
@@ -190,6 +199,11 @@ main button.button {
 
     main .items2 {
         padding-top: 1em;
+    }
+
+    main section.videos .video {
+        width: 100%;
+        padding: 10px;
     }
 }
 
