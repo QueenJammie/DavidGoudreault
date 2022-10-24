@@ -125,6 +125,46 @@ main .items .header p {
     font-style: italic;
 }
 
+main section h4 {
+    color: #5F052D;
+}
+
+main #publications,
+main #discographie {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+main #publications div {
+    line-height: 32px;
+}
+
+main section#publications span,
+main section#discographie span {
+    font-style: italic;
+}
+
+main section#discographie .discoGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+    text-align: center;
+}
+
+main #discographie .discoGrid img {
+    width: 180px;
+}
+
+@media (max-width: 960px) {
+    main section#discographie .discoGrid {
+        grid-template-columns: 1fr;
+    }
+
+    main #discographie .discoGrid img {
+        width: 380px;
+    }
+}
+
 main button.button {
     display: block;
     margin: 8px auto 30px;
