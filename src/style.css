@@ -17,6 +17,14 @@ a {
     text-decoration: none;
 }
 
+.grid {
+    display: grid;
+}
+
+.grid-2-coloms {
+    grid-template-columns: 1fr 1fr;
+}
+
 header {
     background-image:
         /*linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), */
