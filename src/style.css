@@ -1,5 +1,6 @@
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #f7f3dd;
 }
 
 .container {
@@ -161,7 +162,7 @@ main #discographie .discoGrid img {
     }
 
     main #discographie .discoGrid img {
-        width: 300px;
+        width: 250px;
     }
 }
 
