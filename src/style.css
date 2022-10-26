@@ -140,6 +140,11 @@ main .main img {
     width: 400px
 }
 
+main .header img:hover,
+main .main img:hover {
+    filter: sepia(25%);
+}
+
 main section h4 {
     color: #5F052D;
 }
