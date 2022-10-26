@@ -135,14 +135,9 @@ main .items .header p {
     font-style: italic;
 }
 
-main .header img {
-    width: 90%;
-    height: 90%;
-}
-
+main .header img,
 main .main img {
-    width: 90%;
-    height: 90%;
+    width: 400px
 }
 
 main section h4 {
@@ -293,6 +288,16 @@ footer .contact {
 }
 
 @media (max-width: 960px) {
+    main .header img {
+        width: 90%;
+        height: 90%;
+    }
+
+    main .main img {
+        width: 90%;
+        height: 90%;
+    }
+
     footer .contact a {
         display: block;
         line-height: 8px;
